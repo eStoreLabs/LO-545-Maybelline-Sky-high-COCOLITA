@@ -434,7 +434,7 @@
         left: 8px;
         color: #ffffff;
         }
-        #es-rc #es-rc-content .es-colors .swiper2 {
+        #es-rc #es-rc-content .es-colors .es-swiper2 {
         padding-inline: 16px;
         padding-block: 32px;
         }
@@ -822,7 +822,7 @@
                 <div class="es-features">
 
                     <!-- Slider main container -->
-                    <div class="swiper swiper1">
+                    <div class="swiper es-swiper1">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
@@ -923,14 +923,14 @@
                         </div>
 
                         <!-- pagination -->
-                        <div class="swiper1-pagination swiper-pagination"></div>
+                        <div class="es-swiper1-pagination swiper-pagination"></div>
 
                         <!-- navigation buttons -->
-                        <div class="swiper1-button-prev swiper-button-prev">
+                        <div class="es-swiper1-button-prev swiper-button-prev">
                             <img src="./images/chevron-left.png"
                                  alt="poprzedni slajd" />
                         </div>
-                        <div class="swiper1-button-next swiper-button-next">
+                        <div class="es-swiper1-button-next swiper-button-next">
                             <img src="./images/chevron-left.png"
                                  alt="następny slajd" />
                         </div>
@@ -973,7 +973,7 @@
                     </div>
 
                     <!-- Slider main container -->
-                    <div class="swiper swiper2">
+                    <div class="swiper es-swiper2">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
@@ -1143,14 +1143,14 @@
                             </div>
                         </div>
                         <!-- pagination -->
-                        <div class="swiper2-pagination swiper-pagination"></div>
+                        <div class="es-swiper2-pagination swiper-pagination"></div>
 
                         <!-- navigation buttons -->
-                        <div class="swiper2-button-prev swiper-button-prev">
+                        <div class="es-swiper2-button-prev swiper-button-prev">
                             <img src="./images/chevron-left.png"
                                  alt="poprzedni slajd" />
                         </div>
-                        <div class="swiper2-button-next swiper-button-next">
+                        <div class="es-swiper2-button-next swiper-button-next">
                             <img src="./images/chevron-left.png"
                                  alt="następny slajd" />
                         </div>
@@ -1362,36 +1362,36 @@
             //# sourceMappingURL=swiper-bundle.min.js.map
         </script>
         <script>
-            const swiper = new Swiper('#es-rc #es-rc-content .swiper1', {
+            const swiper = new Swiper('.es-swiper1', {
                 // Optional parameters
                 loop: true,
                 autoHeight: true,
                 // autoplay: true,
 
                 pagination: {
-                    el: '#es-rc #es-rc-content .swiper1-pagination',
+                    el: '.es-swiper1-pagination',
                     clickable: true,
                 },
 
                 navigation: {
-                    nextEl: '#es-rc #es-rc-content .swiper1-button-next',
-                    prevEl: '#es-rc #es-rc-content .swiper1-button-prev',
+                    nextEl: '.es-swiper1-button-next',
+                    prevEl: '.es-swiper1-button-prev',
                 },
             });
-            const swiper2 = new Swiper('#es-rc #es-rc-content .swiper2', {
+            const swiper2 = new Swiper('.es-swiper2', {
                 // Optional parameters
                 loop: true,
                 autoHeight: true,
                 // autoplay: true,
 
                 pagination: {
-                    el: '#es-rc #es-rc-content .swiper2-pagination',
+                    el: '.es-swiper2-pagination',
                     clickable: true,
                 },
 
                 navigation: {
-                    nextEl: '#es-rc #es-rc-content .swiper2-button-next',
-                    prevEl: '#es-rc #es-rc-content .swiper2-button-prev',
+                    nextEl: '.es-swiper2-button-next',
+                    prevEl: '.es-swiper2-button-prev',
                 },
                 breakpoints: {
                     0: { // For screens 0px and wider
